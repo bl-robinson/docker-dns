@@ -14,3 +14,10 @@ docker run \
 ```
 
 Or just docker-compose up (if using docker-compose)
+
+
+Docker build push for home
+
+```
+docker build . -t container-registry.k8s.home.blrobinson.uk/docker-dns:latest
+docker push container-registry.k8s.home.blrobinson.uk/docker-dns:latest
