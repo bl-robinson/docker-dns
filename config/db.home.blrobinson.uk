@@ -16,6 +16,7 @@ container-registry.k8s IN A 10.0.0.100
 web.k8s IN A 10.0.0.101
 adguard.k8s IN A 10.0.0.102
 dns.k8s IN A 10.0.0.103
+unifi.k8s  IN A 10.0.0.104
 
 k8s-worker-2 IN A 10.0.0.22
 k8s-worker-1 IN A 10.0.0.21

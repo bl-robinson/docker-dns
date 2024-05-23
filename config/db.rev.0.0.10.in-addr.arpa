@@ -42,3 +42,5 @@
 101  IN PTR web.k8s.home.blrobinson.uk.
 102  IN PTR adguard.k8s.home.blrobinson.uk.
 103  IN PTR dns.k8s.home.blrobinson.uk.
+104  IN PTR unifi.k8s.home.blrobinson.uk.
+
