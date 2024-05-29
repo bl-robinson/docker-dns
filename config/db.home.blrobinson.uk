@@ -18,6 +18,9 @@ adguard.k8s IN A 10.0.0.102
 dns.k8s IN A 10.0.0.103
 unifi.k8s  IN A 10.0.0.104
 
+k8s-worker-5 IN A 10.0.0.25
+k8s-worker-4 IN A 10.0.0.24
+k8s-worker-3 IN A 10.0.0.23
 k8s-worker-2 IN A 10.0.0.22
 k8s-worker-1 IN A 10.0.0.21
 k8s-control  IN A 10.0.0.20
