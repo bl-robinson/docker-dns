@@ -45,8 +45,8 @@ home-assistant        IN A 10.0.0.3
 
 fw           IN A 10.0.0.1
 
-ap2-U6       IN A 10.0.0.35
+ap2          IN A 10.0.0.35
 ap1          IN A 10.0.0.36
 
 sw1          IN A 10.0.0.30
-shed-sw1     IN A 10.0.0.31
+sw2          IN A 10.0.0.31
