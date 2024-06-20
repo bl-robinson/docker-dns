@@ -13,7 +13,7 @@ home.blrobinson.uk.    IN    NS    dns.home.blrobinson.uk.
 home.blrobinson.uk.    IN    MX    10 mail.home.blrobinson.uk.
 
 web.k8s IN A 10.0.0.100
-container-registry.k8s IN A 10.0.0.101
+*.k8s IN A 10.0.0.101
 adguard.k8s IN A 10.0.0.102
 dns.k8s IN A 10.0.0.103
 unifi.k8s  IN A 10.0.0.104
