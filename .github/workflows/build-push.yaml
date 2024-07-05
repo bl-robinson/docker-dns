@@ -19,3 +19,11 @@ jobs:
           context: .
           push: true
           tags: container-registry.k8s.home.blrobinson.uk/docker-dns:latest
+      - uses: azure/setup-kubectl@v3
+        with:
+          version: '1.22' # default is latest stable
+        id: install
+      - name: Start Rollout restart
+        run: kubectl rollout restart deployment/dns -n dns
+      - name: Monitor restart
+        run: kubectl rollout status deployment/dns -n dns
