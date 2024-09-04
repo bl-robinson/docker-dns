@@ -9,8 +9,8 @@ home.blrobinson.uk.    IN    SOA    dns.home.blrobinson.uk. root.dns.home.blrobi
             2419200        ; Expire
              604800 )    ; Negative Cache TTL
 ;
-home.blrobinson.uk.    IN    NS    dns.home.blrobinson.uk.
-home.blrobinson.uk.    IN    MX    10 mail.home.blrobinson.uk.
+home.blrobinson.uk.    IN    NS    dns.k8s.home.blrobinson.uk.
+home.blrobinson.uk.    IN    MX    10 mail.k8s.blrobinson.uk.
 
 web.k8s IN A 10.0.0.100
 *.k8s IN A 10.0.0.101
@@ -18,6 +18,7 @@ adguard.k8s IN A 10.0.0.102
 dns.k8s IN A 10.0.0.103
 unifi.k8s  IN A 10.0.0.104
 shell.k8s  IN A 10.0.0.105
+mail.k8s   IN A 10.0.0.104
 
 k8s-worker-5 IN A 10.0.0.25
 k8s-worker-4 IN A 10.0.0.24
