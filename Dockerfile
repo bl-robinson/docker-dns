@@ -1,4 +1,4 @@
-FROM internetsystemsconsortium/bind9:9.19
+FROM internetsystemsconsortium/bind9:9.20
 
 COPY config/named.conf.options /etc/bind/
 COPY config/named.conf.local /etc/bind/
