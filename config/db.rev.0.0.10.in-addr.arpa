@@ -7,7 +7,7 @@
     )
          IN NS dns.home.blrobinson.uk.
 1    IN PTR fw.home.blrobinson.uk.
-
+2    IN PTR shed-cam.home.blrobinson.uk.
 3    IN PTR backup.home.blrobinson.uk.
 4    IN PTR hv.home.blrobinson.uk.
 
