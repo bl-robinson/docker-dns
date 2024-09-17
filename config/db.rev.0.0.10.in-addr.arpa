@@ -1,4 +1,4 @@
-@ IN SOA raspberry.home.lan. hostmaster.home.lan. (
+@ IN SOA dns.home.blrobinson.uk. hostmaster.home.blrobinson.uk. (
         2017081401 ; serial
         8H ; refresh
         4H ; retry
