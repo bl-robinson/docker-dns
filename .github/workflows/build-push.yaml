@@ -19,9 +19,6 @@ jobs:
         with:
           images: |
             container-registry.k8s.home.blrobinson.uk/docker-dns
-          tags: |
-            type=sha
-            type=ref,event=tag
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
