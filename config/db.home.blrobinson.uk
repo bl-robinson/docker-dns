@@ -31,10 +31,8 @@ k8s-control  IN A 10.0.0.20
 hv2          IN A 10.0.0.19
 games        IN A 10.0.0.18
 
-data         IN A 10.0.0.11
-
 hv           IN A 10.0.0.4
-backup       IN A 10.0.0.3
+data         IN A 10.0.0.3
 shed-cam     IN A 10.0.0.2
 fw           IN A 10.0.0.1
 
