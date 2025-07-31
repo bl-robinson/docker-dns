@@ -1,0 +1,18 @@
+; Reverse zone: e.a.7.2.2.c.1.6.6.0.a.2.ip6.arpa
+
+$TTL 1h
+
+@       IN      SOA     dns.home.blrobinson.uk. admin.blrobinson.uk. (
+        2025073101      ; serial
+        1h              ; refresh
+        15m             ; retry
+        1w              ; expire
+        1h              ; minimum
+)
+
+@       IN      NS      dns.home.blrobinson.uk.
+
+1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR backup.home.blrobinson.uk.
+2.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR data.home.blrobinson.uk.
+3.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv1.home.blrobinson.uk.
+4.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv2.home.blrobinson.uk.
