@@ -49,3 +49,9 @@ data         IN AAAA 2a06:61c2:27ae::1:0002
 hv1          IN AAAA 2a06:61c2:27ae::1:0003
 hv2          IN AAAA 2a06:61c2:27ae::1:0004
 shed-cam     IN AAAA 2a06:61c2:27ae::1:0005
+
+k8s-control  IN AAAA 2a06:61c2:27ae::1:0006
+k8s-worker-1 IN AAAA 2a06:61c2:27ae::1:0007
+k8s-worker-2 IN AAAA 2a06:61c2:27ae::1:0008
+k8s-worker-3 IN AAAA 2a06:61c2:27ae::1:0009
+k8s-worker-4 IN AAAA 2a06:61c2:27ae::1:000A

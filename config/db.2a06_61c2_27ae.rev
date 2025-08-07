@@ -16,3 +16,9 @@ $TTL 1h
 2.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR data.home.blrobinson.uk.
 3.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv1.home.blrobinson.uk.
 4.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv2.home.blrobinson.uk.
+5.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR shed-cam.home.blrobinson.uk.
+6.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-control.home.blrobinson.uk.
+7.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-1.home.blrobinson.uk.
+8.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-2.home.blrobinson.uk.
+9.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-3.home.blrobinson.uk.
+A.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-4.home.blrobinson.uk.
