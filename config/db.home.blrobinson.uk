@@ -18,8 +18,9 @@ adguard.k8s IN A 10.0.0.102
 dns         IN A 10.0.0.103
 dns.k8s     IN A 10.0.0.103
 unifi.k8s   IN A 10.0.0.104
-shell.k8s   IN A 10.0.0.105
 mail.k8s    IN A 10.0.0.104
+shell.k8s   IN A 10.0.0.105
+foo         IN A 10.0.0.106
 
 k8s-worker-5 IN A 10.0.0.25
 k8s-worker-4 IN A 10.0.0.24
