@@ -15,8 +15,11 @@ home.blrobinson.uk.    IN    MX    10 mail.k8s.blrobinson.uk.
 web.k8s     IN A 10.0.0.100
 *.k8s       IN A 10.0.0.101
 adguard.k8s IN A 10.0.0.102
+adguard.k8s IN AAAA 2a06:61c2:27ae:2::0002
 dns         IN A 10.0.0.103
+dns         IN AAAA 2a06:61c2:27ae:2::0001
 dns.k8s     IN A 10.0.0.103
+dns.k8s     IN AAAA 2a06:61c2:27ae:2::0001
 unifi.k8s   IN A 10.0.0.104
 mail.k8s    IN A 10.0.0.104
 shell.k8s   IN A 10.0.0.105
@@ -55,3 +58,5 @@ k8s-worker-1 IN AAAA 2a06:61c2:27ae::1:0007
 k8s-worker-2 IN AAAA 2a06:61c2:27ae::1:0008
 k8s-worker-3 IN AAAA 2a06:61c2:27ae::1:0009
 k8s-worker-4 IN AAAA 2a06:61c2:27ae::1:000A
+
+
