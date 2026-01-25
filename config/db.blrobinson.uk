@@ -1,0 +1,28 @@
+;
+; BIND data file for internal blrobinson.uk
+;
+$TTL    300
+@       IN      SOA     dns.home.blrobinson.uk. admin.blrobinson.uk. (
+                  2026012501 ; Serial (YYYYMMDDNN format)
+                  3600       ; Refresh
+                  1800       ; Retry
+                  604800     ; Expire
+                  300 )      ; Negative Cache TTL
+;
+@       IN      NS      dns.home.blrobinson.uk.
+
+; Main web traffic (nginx passthrough gateway)
+@       IN      A       10.0.3.100
+www     IN      A       10.0.3.100
+
+; Add your specific subdomains here
+container-registry.k8s  IN  A   10.0.3.101
+prometheus.k8s          IN  A   10.0.3.101
+grafana.k8s             IN  A   10.0.3.101
+alertmanager.k8s        IN  A   10.0.3.101
+mail                    IN  A   10.0.3.104
+
+; For services behind nginx passthrough (10.0.3.100):
+
+; Wildcard if needed (optional)
+; *       IN      A       10.0.3.100
