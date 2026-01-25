@@ -9,7 +9,9 @@ $TTL    300
                   604800     ; Expire
                   300 )      ; Negative Cache TTL
 ;
-@       IN      NS      dns.home.blrobinson.uk.
+@       IN      NS      dns.k8s.home.blrobinson.uk.
+mail    IN      MX      10 mail.blrobinson.uk.
+
 
 ; Main web traffic (nginx passthrough gateway)
 @       IN      A       10.0.3.100
