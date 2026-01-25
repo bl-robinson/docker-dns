@@ -25,4 +25,4 @@ mail                    IN  A   10.0.3.104
 ; For services behind nginx passthrough (10.0.3.100):
 
 ; Wildcard if needed (optional)
-; *       IN      A       10.0.3.100
+*       IN      A       10.0.3.100
