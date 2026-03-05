@@ -15,16 +15,24 @@ mail    IN      MX      10 mail.blrobinson.uk.
 
 ; Main web traffic (nginx passthrough gateway)
 @       IN      A       10.0.3.100
+@       IN      AAAA    2a06:61c2:27ae:2::3
 www     IN      A       10.0.3.100
+www     IN      AAAA    2a06:61c2:27ae:2::3
 
 ; Add your specific subdomains here
-container-registry.k8s  IN  A   10.0.3.101
-prometheus.k8s          IN  A   10.0.3.101
-grafana.k8s             IN  A   10.0.3.101
-alertmanager.k8s        IN  A   10.0.3.101
-mail                    IN  A   10.0.3.104
+container-registry.k8s  IN  A       10.0.3.101
+container-registry.k8s  IN  AAAA    2a06:61c2:27ae:2::4
+prometheus.k8s          IN  A       10.0.3.101
+prometheus.k8s          IN  AAAA    2a06:61c2:27ae:2::4
+grafana.k8s             IN  A       10.0.3.101
+grafana.k8s             IN  AAAA    2a06:61c2:27ae:2::4
+alertmanager.k8s        IN  A       10.0.3.101
+alertmanager.k8s        IN  AAAA    2a06:61c2:27ae:2::4
+mail                    IN  A       10.0.3.104
+; mail                    IN  AAAA    2a06:61c2:27ae:2::5  ; Mailu does not listen on IPv6
 
 ; For services behind nginx passthrough (10.0.3.100):
 
 ; Wildcard if needed (optional)
 *       IN      A       10.0.3.100
+*       IN      AAAA    2a06:61c2:27ae:2::3

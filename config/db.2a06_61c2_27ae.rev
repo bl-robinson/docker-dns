@@ -22,3 +22,11 @@ $TTL 1h
 8.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-2.home.blrobinson.uk.
 9.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-3.home.blrobinson.uk.
 A.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-4.home.blrobinson.uk.
+
+; k8s services (2a06:61c2:27ae:2::X)
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR dns.k8s.home.blrobinson.uk.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR adguard.k8s.home.blrobinson.uk.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR web.k8s.home.blrobinson.uk.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR gateway.k8s.home.blrobinson.uk.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR mail.k8s.home.blrobinson.uk.
+6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR shell.k8s.home.blrobinson.uk.
