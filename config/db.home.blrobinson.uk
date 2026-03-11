@@ -51,6 +51,9 @@ ap1          IN A 10.0.0.36
 sw1          IN A 10.0.0.30
 sw2          IN A 10.0.0.31
 
+garage-pw    IN A 10.0.0.50
+office-pw    IN A 10.0.0.51
+
 backup       IN AAAA 2a06:61c2:27ae::1:0001
 data         IN AAAA 2a06:61c2:27ae::1:0002
 hv1          IN AAAA 2a06:61c2:27ae::1:0003
