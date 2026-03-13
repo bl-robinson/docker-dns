@@ -32,6 +32,10 @@
 
 50   IN PTR garage-pw.home.blrobinson.uk.
 51   IN PTR office-pw.home.blrobinson.uk.
+52   IN PTR garage-freezer-pw.home.blrobinson.uk.
+53   IN PTR washing-machine-pw.home.blrobinson.uk.
+54   IN PTR dishwasher-pw.home.blrobinson.uk.
+55   IN PTR airfryer-pw.home.blrobinson.uk.
 
 100  IN PTR web.k8s.home.blrobinson.uk.
 101  IN PTR container-registry.k8s.home.blrobinson.uk.
