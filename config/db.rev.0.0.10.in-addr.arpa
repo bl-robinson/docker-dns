@@ -12,6 +12,9 @@
 
 5    IN PTR hv1.home.blrobinson.uk.
 6    IN PTR backup.home.blrobinson.uk.
+7    IN PTR hv-rack.home.blrobinson.uk.
+
+9    IN PTR hv-rack-ipmi.home.blrobinson.uk.
 
 18   IN PTR games.home.blrobinson.uk.
 
