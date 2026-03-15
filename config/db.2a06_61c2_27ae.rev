@@ -24,6 +24,7 @@ $TTL 1h
 A.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-4.home.blrobinson.uk.
 B.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv-rack.home.blrobinson.uk.
 C.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv-rack-ipmi.home.blrobinson.uk.
+D.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR k8s-worker-5.home.blrobinson.uk.
 
 ; k8s services (2a06:61c2:27ae:2::X)
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR dns.k8s.home.blrobinson.uk.
