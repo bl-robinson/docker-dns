@@ -41,6 +41,7 @@
 54   IN PTR dishwasher-pw.home.blrobinson.uk.
 55   IN PTR airfryer-pw.home.blrobinson.uk.
 56   IN PTR thermostat-1.home.blrobinson.uk.
+57   IN PTR inverter-modbus.home.blrobinson.uk.
 
 100  IN PTR web.k8s.home.blrobinson.uk.
 101  IN PTR container-registry.k8s.home.blrobinson.uk.
