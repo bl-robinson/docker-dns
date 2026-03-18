@@ -63,6 +63,7 @@ dishwasher-pw       IN A 10.0.0.54
 airfryer-pw         IN A 10.0.0.55
 thermostat-1        IN A 10.0.0.56
 inverter-modbus     IN A 10.0.0.57
+heatpump-pw         IN A 10.0.0.58
 
 backup       IN AAAA 2a06:61c2:27ae::1:0001
 data         IN AAAA 2a06:61c2:27ae::1:0002
