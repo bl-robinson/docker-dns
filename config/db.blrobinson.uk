@@ -31,6 +31,9 @@ alertmanager.k8s        IN  AAAA    2a06:61c2:27ae:2::4
 mail                    IN  A       10.0.3.104
 ; mail                    IN  AAAA    2a06:61c2:27ae:2::5  ; Mailu does not listen on IPv6
 
+webmail                 IN  A       10.0.3.100
+webmail                 IN  AAAA    2a06:61c2:27ae:2::3
+
 ; For services behind nginx passthrough (10.0.3.100):
 
 ; Wildcard if needed (optional)
