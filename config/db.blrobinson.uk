@@ -28,6 +28,8 @@ grafana.k8s             IN  A       10.0.3.101
 grafana.k8s             IN  AAAA    2a06:61c2:27ae:2::4
 alertmanager.k8s        IN  A       10.0.3.101
 alertmanager.k8s        IN  AAAA    2a06:61c2:27ae:2::4
+open-webui.k8s          IN  A       10.0.3.101
+open-webui.k8s          IN  AAAA    2a06:61c2:27ae:2::4
 mail                    IN  A       10.0.3.104
 ; mail                    IN  AAAA    2a06:61c2:27ae:2::5  ; Mailu does not listen on IPv6
 
