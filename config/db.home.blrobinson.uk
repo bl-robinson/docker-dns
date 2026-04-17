@@ -44,6 +44,7 @@ hv-rack           IN A 10.0.0.7
 backup            IN A 10.0.0.6
 hv1               IN A 10.0.0.5
 
+M-O          IN A 10.0.0.4
 data         IN A 10.0.0.3
 shed-cam     IN A 10.0.0.2
 fw           IN A 10.0.0.1
@@ -80,3 +81,4 @@ k8s-worker-5 IN AAAA 2a06:61c2:27ae::1:000D
 
 hv-rack      IN AAAA 2a06:61c2:27ae::1:000B
 hv-rack-ipmi IN AAAA 2a06:61c2:27ae::1:000C
+M-O          IN AAAA 2a06:61c2:27ae::1:000E
