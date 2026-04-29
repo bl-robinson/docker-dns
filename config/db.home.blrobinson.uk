@@ -3,7 +3,7 @@
 ;
 $TTL    604800
 home.blrobinson.uk.    IN    SOA    dns.home.blrobinson.uk. home.blrobinson.uk. (
-                  2        ; Serial
+                  3        ; Serial
              604800        ; Refresh
               86400        ; Retry
             2419200        ; Expire
@@ -27,6 +27,8 @@ mail.k8s    IN A 10.0.3.104
 ; mail.k8s    IN AAAA 2a06:61c2:27ae:2::0005  ; Mailu does not listen on IPv6 (https://github.com/Mailu/Mailu/issues/2293)
 shell.k8s   IN A 10.0.3.105
 shell.k8s   IN AAAA 2a06:61c2:27ae:2::0006
+mqtt.k8s    IN A 10.0.3.106
+mqtt.k8s    IN AAAA 2a06:61c2:27ae:2::0007
 
 k8s-worker-5 IN A 10.0.0.25
 k8s-worker-4 IN A 10.0.0.24

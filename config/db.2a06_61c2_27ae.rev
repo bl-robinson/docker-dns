@@ -3,7 +3,7 @@
 $TTL 1h
 
 @       IN      SOA     dns.home.blrobinson.uk. admin.blrobinson.uk. (
-        2025073101      ; serial
+        2025073102      ; serial
         1h              ; refresh
         15m             ; retry
         1w              ; expire
@@ -34,3 +34,4 @@ E.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR M-O.home.blrobinson.uk.
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR gateway.k8s.home.blrobinson.uk.
 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR mail.k8s.home.blrobinson.uk.
 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR shell.k8s.home.blrobinson.uk.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0       IN PTR mqtt.k8s.home.blrobinson.uk.

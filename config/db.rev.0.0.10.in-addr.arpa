@@ -1,5 +1,5 @@
 @ IN SOA dns.home.blrobinson.uk. hostmaster.home.blrobinson.uk. (
-        2017081401 ; serial
+        2017081402 ; serial
         8H ; refresh
         4H ; retry
         4W ; expire
@@ -50,3 +50,4 @@
 103  IN PTR dns.k8s.home.blrobinson.uk.
 104  IN PTR unifi.k8s.home.blrobinson.uk.
 105  IN PTR shell.k8s.home.blrobinson.uk.
+106  IN PTR mqtt.k8s.home.blrobinson.uk.
