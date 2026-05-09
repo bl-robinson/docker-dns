@@ -42,6 +42,7 @@ games        IN A 10.0.0.18
 
 hv-rack-ipmi      IN A 10.0.0.9
 
+p1p2              IN A 10.0.0.8
 hv-rack           IN A 10.0.0.7
 backup            IN A 10.0.0.6
 hv1               IN A 10.0.0.5
