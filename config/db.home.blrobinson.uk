@@ -44,7 +44,7 @@ hv-rack-ipmi      IN A 10.0.0.9
 
 p1p2              IN A 10.0.0.8
 hv-rack           IN A 10.0.0.7
-backup            IN A 10.0.0.6
+backup            IN A 10.0.2.4
 hv1               IN A 10.0.0.5
 
 M-O          IN A 10.0.0.4
@@ -69,7 +69,6 @@ thermostat-1        IN A 10.0.0.56
 inverter-modbus     IN A 10.0.0.57
 heatpump-pw         IN A 10.0.0.58
 
-backup       IN AAAA 2a06:61c2:27ae::1:0001
 data         IN AAAA 2a06:61c2:27ae::1:0002
 hv1          IN AAAA 2a06:61c2:27ae::1:0003
 hv2          IN AAAA 2a06:61c2:27ae::1:0004

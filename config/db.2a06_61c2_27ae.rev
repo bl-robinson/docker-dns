@@ -12,7 +12,6 @@ $TTL 1h
 
 @       IN      NS      dns.home.blrobinson.uk.
 
-1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR backup.home.blrobinson.uk.
 2.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR data.home.blrobinson.uk.
 3.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv1.home.blrobinson.uk.
 4.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0       IN PTR hv2.home.blrobinson.uk.
