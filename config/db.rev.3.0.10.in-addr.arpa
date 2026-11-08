@@ -1,0 +1,21 @@
+; Reverse zone: 10.0.3.0/24 (k8s service IPs)
+
+$TTL 1h
+
+@       IN      SOA     dns.home.blrobinson.uk. hostmaster.home.blrobinson.uk. (
+        2026110801      ; serial
+        8H              ; refresh
+        4H              ; retry
+        4W              ; expire
+        1D              ; minimum
+)
+
+@       IN      NS      dns.home.blrobinson.uk.
+
+100  IN PTR web.k8s.home.blrobinson.uk.
+101  IN PTR container-registry.k8s.home.blrobinson.uk.
+102  IN PTR adguard.k8s.home.blrobinson.uk.
+103  IN PTR dns.k8s.home.blrobinson.uk.
+104  IN PTR unifi.k8s.home.blrobinson.uk.
+105  IN PTR shell.k8s.home.blrobinson.uk.
+106  IN PTR mqtt.k8s.home.blrobinson.uk.
